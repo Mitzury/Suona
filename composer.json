@@ -1,1 +1,21 @@
-
+{
+  "name": "mitzury/suona",
+  "description": "My another PHP framework",
+  "type": "project",
+  "license": "MIT",
+  "homepage": "https://suona.ru",
+  "authors": [
+    {
+      "name": "Bogdanov Sergei",
+      "email": "mail@bogdanovsi.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  }
+}
