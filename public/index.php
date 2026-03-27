@@ -1,2 +1,8 @@
 <?php
-echo 'Hello. Here is Souna php framework';
+use src\App;
+
+require __DIR__.'/../vendor/autoload.php';
+
+
+$app = new App();
+$app->run();
